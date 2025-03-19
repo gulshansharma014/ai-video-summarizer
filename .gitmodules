@@ -1,0 +1,6 @@
+[submodule "ai-video-summarizer-frontend"]
+	path = ai-video-summarizer-frontend
+	url = https://github.com/gulshansharma014/ai-video-summarizer-frontend.git
+[submodule "ai-video-summarizer-backend"]
+	path = ai-video-summarizer-backend
+	url = https://github.com/gulshansharma014/ai-video-summarizer-backend.git
