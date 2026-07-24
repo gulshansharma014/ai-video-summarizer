@@ -236,7 +236,7 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 Start the backend:
 
 ```bash
-node server.js
+npm start
 ```
 
 The backend runs at:
@@ -265,7 +265,6 @@ Never commit API keys or `.env` files.
 |---|---:|---|
 | `GOOGLE_API_KEY` | Yes | Authenticates requests to Google Gemini |
 | `PORT` | No | Configures the backend server port |
-| `OPENAI_API_KEY` | No | Reserved for an alternative AI provider |
 
 ## Current Limitations
 
@@ -284,7 +283,7 @@ Never commit API keys or `.env` files.
 - [ ] Add Docker support
 - [ ] Add GitHub Actions for frontend and backend validation
 - [ ] Add API rate limiting
-- [ ] Stream PDF output without temporary file storage
+- [x] Stream PDF output without temporary file storage
 - [ ] Add transcript language selection
 - [ ] Add configurable summary formats
 - [ ] Add persistent summary history
