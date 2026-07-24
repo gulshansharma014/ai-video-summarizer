@@ -18,5 +18,5 @@ A MERN stack application that extracts, analyzes, and formats YouTube transcript
 ## Setup Guide
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ai-video-summarizer.git
+   git clone --recurse-submodules https://github.com/gulshansharma014/ai-video-summarizer.git
    cd ai-video-summarizer
